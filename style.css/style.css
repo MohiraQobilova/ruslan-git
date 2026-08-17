@@ -1,0 +1,25 @@
+body {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      min-height: 100vh;
+    }
+    .card1 {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      max-width: 400px;
+      
+    }
+    .avatar-img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border: 3px solid #0ea5e9;
+    }
+    .btn-custom {
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+    .btn-custom:hover {
+      transform: translateY(-2px);
+    }
